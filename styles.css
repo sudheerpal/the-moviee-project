@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
+
+* {
+  font-family: 'Ubuntu', sans-serif;
+}
+
+#app-Wrapper {
+  padding: 10px;
+}
+
+.list-item {
+  font-size: 20px;
+  line-height: 20px;
+  margin: 18px 0px;
+  font-weight: 800;
+  width: 60%;
+}
+
+.list-item:hover {
+  cursor: pointer;
+  color: chocolate;
+}
+
+#searchBox {
+  margin-top: 10px;
+  display: flex;
+  width: 80%;
+}
+
+#searchBox .btn-search {
+  border-top-left-radius: 0px;
+  border-bottom-left-radius: 0px;
+  border-bottom-right-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+#searchBox #searchInput {
+  border-bottom-right-radius: 0px;
+  border-top-right-radius: 0px;
+}
+
+#result-wrapper {
+  margin: 20px 0px;
+}
+
+#result-wrapper .text-italics {
+  font-style: italic;
+}
+
+.hideItem {
+  display: none;
+}
